@@ -11,3 +11,107 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.btn-green {
+    background-color: #79e293; 
+    color: white; 
+    border-color: none; 
+    height: 9vh;
+    width: 18vw;
+    font-size: 3vh;
+    border-radius: 5px;
+  }
+
+  .input-group-prepend {
+    display: flex;
+    align-items: center;
+  }
+  
+  .input-group-text {
+    background-color: #eef3f8;
+    color: #000000;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 18px;
+  }
+  
+  .custom-select {
+    width: 110px;
+    height: 38px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 6px 12px;
+    margin-left: 8px;
+    display: inline-block; /* Display select as an inline-block element */
+    font-size: 17px;
+  }
+  
+  .custom-select option {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:stretch;
+    width: 100%;
+}
+
+.input-group-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .input-group-wrapper {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+  }
+  
+  .btn-save {
+    margin-left: 2rem;
+  }
+
+  #cost{
+      margin-top: 15px;
+      padding-bottom: 7px;
+  }
+  
+  #cost2{
+    margin-top: 15px;
+    padding-bottom: 7px;
+}
+
+/* styles.css */
+
+.circle-button-red {
+    width: 25px; /* Set the width and height to create a circular button */
+    height: 25px;
+    border: none;
+    border-radius: 50%; /* Make it a circle by setting border-radius to 50% */
+    background-color: red; /* Red background color */
+    color: white; /* White text color */
+    font-size: 25px; /* Adjust the font size to center the text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; /* Show the pointer cursor on hover */
+  }
+
+  .circle-button-green {
+    width: 25px; /* Set the width and height to create a circular button */
+    height: 25px;
+    border: none;
+    border-radius: 50%; /* Make it a circle by setting border-radius to 50% */
+    background-color: green; /* Red background color */
+    color: white; /* White text color */
+    font-size: 25px; /* Adjust the font size to center the text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; /* Show the pointer cursor on hover */
+  }
+  
